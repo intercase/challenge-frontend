@@ -19,10 +19,11 @@ O desafio consiste em implementar uma pagina web, usando como modelo a imagem ab
 * Bootstrap, em sua ultima versão
 
 ## Considerações
-+ O site deve considerar as principais breakpoints (use como referência a extensão devtools do Chrome/Firefox).
-+ O layout mobile fica a cargo desenvolvedor (isso também será avaliado).
-+ O formulário deve ser centralizado na view.
-+ Não é permitido css inline.
++ O site deve considerar as principais breakpoints (use como referência a extensão devtools do Chrome/Firefox);
++ O layout mobile fica a cargo desenvolvedor (isso também será avaliado);
++ O formulário deve ser centralizado na view;
++ Não é permitido css inline;
++ Como não estamos fornecendo as fonts utilizadas, assim como a font-size e images, fique livre para escolher, mas tente respeitar as paleta de cor;
 
 ## Bonus
 + Utilize algum pré-processador para o seu css, de preferência SASS. (Se quiser, fique a vontade para usar alguma lib/framework CSS)
@@ -30,7 +31,7 @@ O desafio consiste em implementar uma pagina web, usando como modelo a imagem ab
 
 ## Entrega:
 Para iniciar o teste, faça um fork deste repositório, crie uma branch com o seu nome completo (ex: fulanodossantos) e depois envie-nos o pull request. 
-Se você apenas clonar o repositório não vai conseguir fazer push e depois vai ser mais complicado fazer o pull request.
+Se você apenas clonar o repositório não vai conseguir fazer push e depois vai ser mais complicado fazer o pull request
 
 Envie também seu currículo para devteam@intercase.com.br, caso ainda não tenha feito.
 
