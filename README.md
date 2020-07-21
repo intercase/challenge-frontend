@@ -23,7 +23,7 @@ O desafio consiste em implementar uma pagina web, usando como modelo a imagem ab
 + O layout mobile fica a cargo desenvolvedor (isso também será avaliado);
 + O formulário deve ser centralizado na view;
 + Não é permitido css inline;
-+ Como não estamos fornecendo as fonts utilizadas, assim como a font-size e images, fique livre para escolher, mas tente respeitar as paleta de cor;
++ Como não estamos fornecendo as fonts utilizadas, assim como a font-size e images, fique livre para escolher, mas tente respeitar as paletas de cores;
 
 ## Bonus
 + Utilize algum pré-processador para o seu css, de preferência SASS. (Se quiser, fique a vontade para usar alguma lib/framework CSS)
