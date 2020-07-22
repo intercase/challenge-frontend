@@ -1,0 +1,122 @@
+@import 'variables';
+@import 'buttons';
+@import 'animations';
+@import 'reset';
+@import 'utilities';
+@import 'mobile';
+
+h3{
+    color: $text-color;
+}
+
+.LeftContainer{
+    background: $left-container-bg; 
+    
+    .Image{
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .Menu{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+        .Menu-item{
+            display: block;
+            margin-bottom: 30px;
+            position: relative;
+            
+            .Menu-item-title{
+                font-size:  18px;
+                color: $text-color;
+            }
+
+            .Menu-item-subtitle{
+                font-size: 14px;
+                color: #888;
+            }   
+
+            .Menu-item-circle{
+                position: absolute;
+                left: -70px;
+                top: 50%;
+                transform: translateY(-50%);
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                background: #f4f5f9;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-weight: bold;
+            }
+
+            .is-active{
+                background: #c7f7f4;
+                color: #49d6cc;
+            }
+        }
+    }
+}
+
+.RightContainer{
+    background: $right-container-bg;
+
+    .InfoText{
+        font-size: 16px;
+        font-weight: bold;
+        color: $text-color-light;
+
+        a{
+            color: $primary-color;
+            text-decoration: none;
+        }
+    }
+
+    .FormWrapper{
+        transition: 0.4s ease-in-out all;
+    }
+
+    .Form{
+
+        .Form-label{
+            display: block;
+            padding: 10px 0;
+            font-size: 14px;
+            font-weight: bold;
+            color: $text-color;
+        }
+
+        .Form-input{
+            padding: 15px;
+            border-radius: 10px;
+            border: none; 
+            width: 100%;
+        }
+
+    }
+
+    .is-comming{
+        opacity: 0;
+        position: absolute;
+        display: none;
+        transform: translateX(100%);
+
+    }
+
+    .is-completed{
+        animation-name: fadeOut;
+        animation-duration: 0.4s;
+        animation-fill-mode: forwards;
+    }
+
+    .is-started{
+        animation-name: fadeIn;
+        animation-duration: 0.4s;
+        animation-fill-mode: forwards;
+
+    }
+    
+}
+

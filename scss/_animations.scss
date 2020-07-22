@@ -1,0 +1,48 @@
+@keyframes fadeIn {
+    0%   {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    25%  {
+        opacity: 0.25;
+        transform: translateX(75%);
+    }
+    50%  {
+        opacity: 0.50;
+        transform: translateX(50%);
+    }
+    75%  {
+        opacity: 0.75;
+        transform: translateX(25%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+  }
+
+  @keyframes fadeOut {
+    0%   {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    25%  {
+        opacity: 0.75;
+        transform: translateX(-25%);
+    }
+    50%  {
+        opacity: 0.50;
+        transform: translateX(-50%);
+
+    }
+    75%  {
+        opacity: 0.25;
+        transform: translateX(-75%);
+
+    }
+    100% {
+        opacity: 0;
+        position: absolute;
+        transform: translateX(-100%);
+    }
+  }

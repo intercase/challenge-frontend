@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/all.min.css" rel="stylesheet" />
+    <title>Test</title>
+  </head>
+  <body>
+
+    <div class="container-fluid full-height">
+        <div class="row full-height">
+            <div class="col-sm-12 col-md-5 LeftContainer">
+                <div class="row justify-content-center">
+                    <div class="col-6 col-md-7 mt-5">
+                        <ul class="Menu">
+                            <li class="Menu-item">
+                                <span id="first-step" class="Menu-item-circle is-active">1</span>
+                                <div class="Menu-item-title">Account Settings</div>
+                                <div class="Menu-item-subtitle">Setup Your Account Details</div>
+                            </li>
+                            <li class="Menu-item">
+                                <span id="secound-step" class="Menu-item-circle">2</span>
+                                <div class="Menu-item-title">Address Details</div>
+                                <div class="Menu-item-subtitle">Setup Residence Address</div>
+                            </li>
+                            <li class="Menu-item">
+                                <span id="third-step" class="Menu-item-circle">3</span>
+                                <div class="Menu-item-title">Completed!</div>
+                                <div class="Menu-item-subtitle">Review and submit</div>
+                            </li>
+                        </ul>
+
+                        <img class="Image" src="img/img.jpg" />
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-12 col-md-7 RightContainer">
+                <div class="row">
+                    <div class="col-12 text-right">
+                        <div class="InfoText p-5">
+                            Having issues? <a href="javascript:void(0);">Get help</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Account Settings -->
+                <div id="account-settings" class="row justify-content-center FormWrapper">
+                    <div class="col-10 col-md-8">
+                        <div class="row mb-5">
+                            <div class="col-12">
+                                <h3>Create Account</h3>
+                                <div class="InfoText">Already have an Account? <a href="javascript:void(0);">Sign in</a></div>
+                            </div>
+                        </div>
+                        <form class="Form needs-validation" novalidate>
+                            <label for="first_name" class="Form-label">First Name</label>
+                            <input type="text" class="form-control Form-input" id="first_name" placeholder="First Name" required>
+                            <div class="invalid-feedback mb-4">
+                                First name is required
+                              </div>
+
+                            <label for="last_name" class="Form-label">Last Name</label>
+                            <input type="text" class="form-control Form-input" id="last_name" placeholder="Last Name" required>
+                            <div class="invalid-feedback mb-4">
+                                Last name is required
+                              </div>
+
+                            <button class="Button Button--pink float-right mt-5" type="submit">Next Step <i class="fas fa-angle-right"></i></button>
+                        
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Address -->
+                <div id="address" class="row justify-content-center is-comming FormWrapper">
+                    <div class="col-10 col-md-8">
+                        <div class="row mb-5">
+                            <div class="col-12">
+                                <h3>Address Details</h3>
+                            </div>
+                        </div>
+                        <form class="Form needs-validation" novalidate>
+                            <div class="row">
+                                <div class="col-12 col-md-4">
+                                    <label for="zip_code" class="Form-label">Zip Code</label>
+                                    <input type="text" class="form-control Form-input" id="zip_code" placeholder="Zip Code" required>
+                                    <div class="invalid-feedback mb-4">
+                                        Zip code is required
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-md-8">
+                                    <label for="street" class="Form-label">Street</label>
+                                    <input type="text" class="form-control Form-input" id="street" placeholder="Street" required>
+                                    <div class="invalid-feedback mb-4">
+                                        Street is required
+                                    </div>
+                                </div>
+                            </div>
+
+                            <label for="city" class="Form-label">City</label>
+                            <input type="text" class="form-control Form-input" id="city" placeholder="City" required>
+                            <div class="invalid-feedback mb-4">
+                                City is required
+                            </div>
+
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <label for="state" class="Form-label">State</label>
+                                    <input type="text" class="form-control Form-input" id="state" placeholder="State" required>
+                                    <div class="invalid-feedback mb-4">
+                                        State is required
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <label for="country" class="Form-label">Country</label>
+                                    <input type="text" class="form-control Form-input" id="country" placeholder="Country" required>
+                                    <div class="invalid-feedback mb-4">
+                                        Country is required
+                                    </div>
+                                </div>
+                            </div>
+
+                            <button class="Button Button--pink float-right mt-5" type="submit">Next Step <i class="fas fa-angle-right"></i></button>
+                        
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Review and Submit -->
+                <div id="review" class="row justify-content-center is-comming">
+                    <div class="col-10 col-md-8">
+                        <div class="row mb-3">
+                            <div class="col-12">
+                                <h3>Review and submit</h3>
+                            </div>
+                        </div>
+                        <form class="Form">
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <label for="first_name" class="Form-label">First Name</label>
+                                    <input type="text" class="form-control Form-input" id="first_name" disabled>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <label for="last_name" class="Form-label">Last Name</label>
+                                    <input type="text" class="form-control Form-input" id="last_name" disabled>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-12 col-md-4">
+                                    <label for="zip_code" class="Form-label">Zip Code</label>
+                                    <input type="text" class="form-control Form-input" id="zip_code" disabled>
+                                </div>
+
+                                <div class="col-12 col-md-8">
+                                    <label for="street" class="Form-label">Street</label>
+                                    <input type="text" class="form-control Form-input" id="street" disabled>
+                                </div>
+                            </div>
+
+                            <label for="city" class="Form-label">City</label>
+                            <input type="text" class="form-control Form-input" id="city" disabled>
+
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <label for="state" class="Form-label">State</label>
+                                    <input type="text" class="form-control Form-input" id="state" disabled>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <label for="country" class="Form-label">Country</label>
+                                    <input type="text" class="form-control Form-input" id="country" disabled>
+                                </div>
+                            </div>
+
+                            <button class="Button Button--pink float-right mt-5" type="submit">Submit <i class="fas fa-angle-right"></i></button>
+                        
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+                
+        </div>
+    </div>
+      
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+
+  </body>
+</html>
