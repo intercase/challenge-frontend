@@ -1,0 +1,19 @@
+.Button{
+    padding: 10px 15px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.Button--pink{
+    background: $primary-color;
+    color: #fff;
+
+    &:hover{
+        background: #fff;
+        color: $primary-color;
+        border: 1px $primary-color solid;
+    }
+}
