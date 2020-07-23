@@ -1,0 +1,13 @@
+/* ESTILIZAÇÃO DA MENSAGEM DE AJUDA */
+.help{
+	top: 35px;
+	right: 35px;
+	color: $color-text-secondary;
+	font-weight: 600;
+	width: max-width;
+	position: absolute;
+}
+/* CONTRASTE DE COR NO TEXTO */
+.contrast{
+	color: $color-text-highlight;
+}

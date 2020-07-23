@@ -1,0 +1,31 @@
+
+$color-buttons:#FE2752;
+$color-text-highlight:#FE2752;
+$color-text-primary: #000;
+$color-text-secondary:#C4C5C9;
+
+@mixin text($tamanho) {
+    @if $tamanho == 12 {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    @else if $tamanho == 14{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    @else if $tamanho == 18{
+        font-size: 18px;
+        line-height: 26px;
+    }
+    @else if $tamanho == 24{
+        font-size: 24px;
+        line-height: 30px; 
+    }
+}
+
+@mixin responsivo(){
+    @media screen and (max-width: 767px){
+        @content;
+    }
+}
+

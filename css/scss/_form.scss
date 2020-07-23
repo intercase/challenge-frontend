@@ -1,0 +1,18 @@
+/* ESTILIZAÇÃO CONTAINER DE FORMULÁRIO DE CADASTRO */
+.cont-form{
+	width: 60%;
+	margin: auto;
+	height: 307px;
+	margin-top: calc(50vh - 153.5px)
+}
+.have-account{
+	color: $color-text-secondary;
+}
+.group-btn{
+	text-align: right;
+}
+.btn-next{
+	color: #FFF;
+	margin-top: 15px;
+	background-color:$color-buttons;
+}
