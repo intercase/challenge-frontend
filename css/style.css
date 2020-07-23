@@ -1,0 +1,57 @@
+@charset "UTF-8";
+/* Corpo Principal */
+* { margin: 0; padding: 0; }
+
+body { background-color: #FCFCFC; }
+
+section { margin: 20px; display: flex; width: calc(100% - 40px); height: calc(100vh - 40px); }
+
+/* ESTILIZAÇÃO DO MENU */
+.nav-mobile { display: none; }
+
+.vertical-bar { width: 45%; background-color: #FFF; border-top-left-radius: 10px; border-bottom-left-radius: 10px; }
+
+.itens-nav { height: 45%; display: flex; flex-direction: column; justify-content: center; }
+
+.link { width: 193px; display: flex; margin: 0 auto; margin-bottom: 15px; flex-direction: row; align-items: center; }
+
+.link p { margin: 0; padding: 0; }
+
+.title-stage { font-weight: bolder; }
+
+.subtitle-stage { color: #C4C5C9; font-size: 12px; line-height: 18px; }
+
+.num-stage { width: 40px; height: 40px; display: flex; margin-right: 15px; text-align: center; align-items: center; background-color: #F4F5F9; }
+
+.num-stage span { width: 100%; font-size: 2ch; font-weight: 700; margin-bottom: 3px; text-align: center; }
+
+.link-active { color: #29BAB3 !important; background-color: #C2FBF5; }
+
+.img-nav { text-align: center; }
+
+main { width: 100%; background-color: #F4F5F9; border-top-right-radius: 10px; border-bottom-right-radius: 10px; }
+
+/* ESTILIZAÇÃO DA MENSAGEM DE AJUDA */
+.help { top: 35px; right: 35px; color: #C4C5C9; font-weight: 600; width: max-width; position: absolute; }
+
+/* CONTRASTE DE COR NO TEXTO */
+.contrast { color: #FE2752; }
+
+/* ESTILIZAÇÃO CONTAINER DE FORMULÁRIO DE CADASTRO */
+.cont-form { width: 60%; margin: auto; height: 307px; margin-top: calc(50vh - 153.5px); }
+
+.have-account { color: #C4C5C9; }
+
+.group-btn { text-align: right; }
+
+.btn-next { color: #FFF; margin-top: 15px; background-color: #FE2752; }
+
+@media screen and (max-width: 767px) { main, .vertical-bar { border-radius: 0; }
+  .nav-mobile { width: 50%; height: 70px; display: flex; margin: 0 auto; margin-top: 20vh; flex-direction: row; }
+  .num-stage { width: 40px; height: 40px; background-color: #C3C3C3; }
+  .vertical-bar { display: none; }
+  .itens-nav { width: 100%; flex-direction: row; justify-content: space-around; }
+  .num-stage { margin-right: 0; }
+  .img-nav, .titles { display: none; }
+  .cont-form { width: 90%; margin-top: 10vh; }
+  .link { width: inherit; } }

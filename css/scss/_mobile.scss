@@ -1,0 +1,30 @@
+@include responsivo {
+	
+	main,.vertical-bar{border-radius: 0;}
+	.nav-mobile{
+		width: 50%;
+		height: 70px;
+		display: flex;
+		margin: 0 auto;
+		margin-top: 20vh;
+		flex-direction: row;
+	}
+	.num-stage{
+		width: 40px;
+        height: 40px;
+        background-color:#C3C3C3;
+	}
+	.vertical-bar{display: none;}
+	.itens-nav{
+		width: 100%;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	.num-stage{margin-right: 0;}
+	.img-nav,.titles{display: none}
+	.cont-form{
+		width: 90%;
+		margin-top: 10vh;
+	}
+	.link{width: inherit;}
+}
