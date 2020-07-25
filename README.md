@@ -26,7 +26,7 @@ O desafio consiste em implementar uma pagina web, usando como modelo a imagem ab
 + Como não estamos fornecendo as fonts utilizadas, assim como a font-size e images, fique livre para escolher, mas tente respeitar as paletas de cores;
 
 ## Bonus
-+ Utilize algum pré-processador para o seu css, de preferência SASS. (Se quiser, fique a vontade para usar alguma lib/framework CSS)
++  Utilize algum pré-processador para o seu css, de preferência SASS. (Se quiser, fique a vontade para usar alguma lib/framework CSS)
 + Qualquer inclusão de funcionalidade é bem vinda, sinta-se livre para aplicar alguma interação a mais ;)
 
 ## Entrega:
